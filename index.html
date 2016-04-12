@@ -23,6 +23,11 @@
 
 </head>
 <body ng-app="tweedeldeeApp">
-	<div ui-view></div>
+	<h1>TweedleDee</h1>
+	<div ui-view>
+	    <div ng-show="currentUserLoggedIn != null">
+	        Welcome {{currentUserLoggedIn}}
+	    </div>
+	</div>
 </body>
 </html>

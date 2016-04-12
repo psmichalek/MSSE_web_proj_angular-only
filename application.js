@@ -47,13 +47,13 @@ app.config(function($stateProvider,$urlRouterProvider,$httpProvider,$provide){
 
     $stateProvider.state({
         name: 'login',
-        templateUrl: 'templates/login.tpl.html',
+        templateUrl: 'views/login2.tpl.html',
         controller: 'loginController'
     });
 
     $stateProvider.state({
         name: 'account',
-        templateUrl: 'templates/account.tpl.html',
+        templateUrl: 'views/account.tpl.html',
         controller: 'accountController'
     });
     
